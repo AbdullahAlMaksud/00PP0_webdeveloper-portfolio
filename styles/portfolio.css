@@ -77,6 +77,7 @@ nav a {
 .profile-pic {
   width: 584px;
   height: 676px;
+  margin-bottom: 0px;
 }
 
 .dev-img {
@@ -178,6 +179,39 @@ main section {
 /* Resume Secttion Style  */
 .resume-column-title {
     color: #474747;
-font-size: 30px;
-font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-intstitute {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.resume-item-description {
+    margin-top: 0px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400; /* 175% */
+}
+
+.resume-container hr {
+    color: #D1D1D1;
+    margin: 30px 0px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
